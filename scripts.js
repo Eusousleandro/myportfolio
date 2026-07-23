@@ -22,5 +22,3 @@ function EnviarWhats(event) {
 
     window.open(url, '_black')
 }
-
-alert('Hello')
