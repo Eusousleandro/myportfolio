@@ -6,19 +6,17 @@ const Observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('show')
         }
     })
-
-    console.log(entries)
 })
 
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => Observer.observe(element))
 
-function EnviarWhats(event) {
-    event.preventDefault()
-    const name = document.getElementById('#name')
-    const message = document.getElementById('#message')
-    const phone = "83921470522"
-    const url = `Olá ${name}, ${message}`
+function SubmitWhats() {
+    const name = document.getElementById('name')
+    const msg = document.getElementById('message')
+    const phone = '83921470522'
 
-    window.open(url, '_black')
+    const url = ``
+
+    window.open(url, _blank)
 }
