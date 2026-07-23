@@ -11,12 +11,13 @@ const Observer = new IntersectionObserver((entries) => {
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => Observer.observe(element))
 
-function SubmitWhats() {
+function SubmitWhats(event) {
+    event.preventDefault()
     const name = document.getElementById('name')
     const msg = document.getElementById('message')
-    const phone = '83921470522'
+    const phone = '5583921470522'
 
-    const url = ``
+    const url = `https://wa.me/${phone},  'Olá, me chamo ' ${name}, ${msg}`
 
-    window.open(url, _blank)
+    window.open(url, '_blank')
 }
