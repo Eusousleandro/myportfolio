@@ -216,6 +216,7 @@ section.project{
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
+    text-align: justify;
     margin-bottom: 0.8rem;
     color:  var(--text-muted);
 }
