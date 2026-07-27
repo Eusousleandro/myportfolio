@@ -15,14 +15,14 @@ function activeText(element) {
     const arrText = element.innerHTML.split('');
     console.log(arrText)
     element.innerHTML = ''
-    arrText.forEach((Text, i) => {
+    arrText.forEach((text, i) => {
             setTimeout(() => {
-                element.innerHTML += element
+                element.innerHTML += text
         }, 75 * i)
     }) 
 }
 
-const titles = document.querySelector('.typing')
+const titles = document.querySelector('.text-name')
 activeText(titles)
 
 function SubmitWhats(event) {
