@@ -11,6 +11,20 @@ const Observer = new IntersectionObserver((entries) => {
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => Observer.observe(element))
 
+function activeText(element) {
+    const arrText = element.innerHTML.split('');
+    console.log(arrText)
+    element.innerHTML = ''
+    arrText.forEach((Text, i) => {
+            setTimeout(() => {
+                element.innerHTML += element
+        }, 75 * i)
+    }) 
+}
+
+const titles = document.querySelector('.typing')
+activeText(titles)
+
 function SubmitWhats(event) {
     event.preventDefault()
     const name = document.getElementById('name')
