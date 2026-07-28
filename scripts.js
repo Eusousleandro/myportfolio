@@ -11,6 +11,13 @@ const Observer = new IntersectionObserver((entries) => {
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => Observer.observe(element))
 
+const buttonMenu = document.getElementById('button')
+const nav = document.querySelectorAll('.navbar')
+
+buttonMenu.addEventListener((event) => {
+    console.log(nav)
+})
+
 function activeText(element) {
     const arrText = element.innerHTML.split('');
     console.log(arrText)

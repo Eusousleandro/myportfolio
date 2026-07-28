@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "variables.css";
+@import "components/navbar.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/form.css";
+@import "animation.css";
+
+@import "pages/profile.css";
+@import "pages/about.css";
+@import "pages/project.css";
+@import "pages/contact.css";

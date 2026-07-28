@@ -1,0 +1,72 @@
+.cards {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 2rem;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.info-card {
+    width: 100%;
+    background-color: var(--bg-card);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.info-card:hover {
+    border-color: var(--color-blue);
+    box-shadow: 0 0 20px var(--shadow-hover);
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 0.6rem;
+}
+
+.title-card {
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+    color:  var(--color-yellon);
+}
+
+.description-card {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 0.8rem;
+    color:  var(--text-muted);
+}
+
+
+.btn-card {
+    display: flex;
+    margin-top: 1.2rem;
+    z-index: 1;
+    gap: 1.2rem;
+}
+
+.btn-view a {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.btn-code a {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--button-text);
+}
