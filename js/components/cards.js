@@ -1,5 +1,3 @@
-import { projects } from "../data/projects.js"
-
 export default function Card(project) {
     return `
             <div class="info-card">

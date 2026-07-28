@@ -10,18 +10,14 @@ const app = document.getElementById("app");
 
 app.innerHTML = `
     ${Navbar()}
-    <main>
-        ${Home()}
-        ${About()}
-        ${Skills()}
-        ${Projects()}
-        ${Contact()}
-    </main>
+    <main id="content"></main>
     ${Footer()}
 `
 
-// document.getElementById("content").innerHTML = Home()
-// document.getElementById("content").innerHTML = About()
-// document.getElementById("content").innerHTML = Skills()
-// document.getElementById("content").innerHTML = Projects()
-// document.getElementById("content").innerHTML = Contact()
+document.getElementById("content").innerHTML = `
+    ${Home()}
+    ${About()}
+    ${Skills()}
+    ${Projects()}
+    ${Contact()}
+`
