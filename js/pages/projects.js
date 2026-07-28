@@ -1,5 +1,5 @@
 import { projects } from '../data/projects.js'
-import { Card } from '../components/cards.js'
+import Card from '../components/cards.js'
 
 export default function Projects() {
     return `
