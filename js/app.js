@@ -6,6 +6,8 @@ import Skills from './pages/skills.js'
 import Projects from './pages/projects.js'
 import Contact from './pages/contact.js'
 
+import { iniAnimation } from './animation.js';
+
 const app = document.getElementById("app");
 
 app.innerHTML = `
@@ -21,3 +23,5 @@ document.getElementById("content").innerHTML = `
     ${Projects()}
     ${Contact()}
 `
+
+iniAnimation()

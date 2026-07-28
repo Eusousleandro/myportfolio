@@ -1,15 +1,4 @@
-const Observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('show')
-        } else {
-            entry.target.classList.remove('show')
-        }
-    })
-})
 
-const elements = document.querySelectorAll('.hidden')
-elements.forEach((element) => Observer.observe(element))
 
 const buttonMenu = document.getElementById('button')
 const nav = document.querySelectorAll('.navbar')
@@ -29,8 +18,6 @@ function activeText(element) {
     }) 
 }
 
-const titles = document.querySelector('.text-name')
-activeText(titles)
 
 function SubmitWhats(event) {
     event.preventDefault()
