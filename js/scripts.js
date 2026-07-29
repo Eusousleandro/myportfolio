@@ -1,22 +1,5 @@
+const toogle = document.querySelectorAll('.btn-theme')
 
-
-const buttonMenu = document.getElementById('button')
-const nav = document.querySelectorAll('.navbar')
-
-buttonMenu.addEventListener((event) => {
-    console.log(nav)
-})
-
-function activeText(element) {
-    const arrText = element.innerHTML.split('');
-    console.log(arrText)
-    element.innerHTML = ''
-    arrText.forEach((text, i) => {
-            setTimeout(() => {
-                element.innerHTML += text
-        }, 75 * i)
-    }) 
-}
 
 
 function SubmitWhats(event) {

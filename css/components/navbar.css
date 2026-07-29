@@ -21,7 +21,7 @@ nav.navbar > ul{
     gap: 1.5rem;
 }
 
-ul.navigtion > li {
+ul#nav-links > li {
     list-style-type: none;
 }
 
@@ -51,9 +51,34 @@ ul.navigtion > li {
 }
 
 .hamburguer {
+    display: none;
     font-size: 1.5rem;
     border: none;
     color: var(--text-primary);
     background-color: transparent;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburguer { 
+        display: block;
+    }
+
+    #nav-links {
+        width: 150px;
+        height: 100vh;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 76px;
+        right: 0;
+        background-color: var(--bg-secundary);
+        box-shadow: 0 0 0.5rem var(--shadow-hover);
+        padding: 20px;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
 }

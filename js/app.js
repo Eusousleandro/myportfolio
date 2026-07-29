@@ -7,6 +7,8 @@ import Projects from './pages/projects.js'
 import Contact from './pages/contact.js'
 
 import { iniAnimation } from './animation.js';
+import { initTheme } from './theme.js';
+import { initBtnNavBar } from './utils/btn.function.js';
 
 const app = document.getElementById("app");
 
@@ -25,3 +27,5 @@ document.getElementById("content").innerHTML = `
 `
 
 iniAnimation()
+initTheme()
+initBtnNavBar()

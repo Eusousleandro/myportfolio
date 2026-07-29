@@ -5,7 +5,7 @@ export default function Navbar() {
                 <h1>Leandro Sousa</h1>
             </div>
             <nav class="navbar">
-                <ul class="navigtion">
+                <ul id="nav-links">
                     <li><a href="#profile" class="nav-link">Ínicio</a></li>
                     <li><a href="#about" class="nav-link">Sobre</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -13,6 +13,10 @@ export default function Navbar() {
                     <li><a href="#contact" class="nav-link">Contatos</a></li>
                 </ul>
             </nav>
+
+            <button id="theme-toogle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
 
             <button class="hamburguer" id="button">
                 <i class="fa-solid fa-bars"></i>
