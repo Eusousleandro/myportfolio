@@ -4,9 +4,11 @@
 @import "components/button.css";
 @import "components/card.css";
 @import "components/form.css";
+@import "components/card.skill.css";
 @import "animation.css";
 
 @import "pages/profile.css";
 @import "pages/about.css";
+@import "pages/skills.css";
 @import "pages/project.css";
 @import "pages/contact.css";
