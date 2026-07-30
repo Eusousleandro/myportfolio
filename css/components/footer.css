@@ -1,0 +1,22 @@
+footer.cta-footer  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secundary);
+    box-shadow: 0 0 0.5rem var(--shadow-hover);
+    padding: 1.2rem 3rem 1.2rem 3rem;
+    z-index: 1;
+}
+.copyrigth {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .copyrigth  {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

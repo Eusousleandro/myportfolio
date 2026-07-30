@@ -45,9 +45,13 @@
     color: #fff;
 }
 
-.icon-skill i {
-    font-size: 55px;
+.icon-skill {
     color: var(--color-blue);
+
+}
+
+i{
+    font-size: 55px;
 }
 
 .text-skill  small{
