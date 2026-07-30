@@ -50,6 +50,19 @@ ul#nav-links > li {
     width: 100%;
 }
 
+.theme-btn {
+    width: 48px;
+    height: 48px;
+    background: var(--color-progress);
+    color: var(--color-yellon);
+    border-radius: 50%;
+    border: 1px solid var(--color-blue);
+}
+
+.theme-btn i {
+    font-size: 1.2rem;
+}
+
 .hamburguer {
     display: none;
     font-size: 1.5rem;

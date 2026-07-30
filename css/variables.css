@@ -21,5 +21,8 @@
     --warning: #facc15;
     --danger: #ef4444; 
     --background: #ffffff;
-
+    --color-progress: #16263c;
+    --text-level: #c9d1d9;
+    --text-label: #e2e8f0;
+    --button-secondary: #4f8dd6;
 }

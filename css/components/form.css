@@ -21,36 +21,68 @@ form.form {
     margin-bottom: 2rem;   
 }
 
-.group-form input {
+.group-form input, textarea {
     width: 30rem;
     border: none;
     border-radius: 16px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding: 16px;
 }
 
-.group-form textarea {
-    width: 30rem;
-    border: none;
-    border-radius: 16px;
-    margin-bottom: 1.5rem;
-    padding: 16px;
+.camp-form {
+  width: 100%;
+  padding: 16px 18px;
+  border: none;
+  outline: none;
+  border: 12px;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: .3;
+}
+
+.camp-form:focus {
+  border-color: var( --color-blue);
+  box-shadow: 0 0 20px var(--shadow-hover);
+}
+
+.camp-form::placeholder {
+  color: var(--text-muted);
+}
+
+.camp-form label {
+  font-weight: 600;
+  color: var(--text-label);
+}
+
+.camp-form textarea {
+  resize: none;
+  min-height: 8px;
 }
 
 .btn-whts {
-    width: 30rem;
+    width: 100%;
     font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
-    background-color: blue;
-    color: white;
-    border: 1px solid rgb(184, 178, 178);
+    background: linear-gradient(
+      90deg,
+      var(--color-blue),
+      var(--button-secondary)
+    );
+    color: var(--text-primary);
+    border: none;
     border-radius: 16px;
     margin-bottom: 1.5rem;
     cursor: pointer;
     padding: 16px;
+    transition: 0.3s;
 }
 
+.btn-whts:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
 
 @media (max-width: 768px) {
   form {
@@ -60,6 +92,7 @@ form.form {
     border-radius: 12px;
   }
 
+  .group-form
   input,
   textarea {
     padding: 14px;

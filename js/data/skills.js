@@ -1,17 +1,17 @@
 export const skills = [
     {
         name: "HTML",
-        icon: "fa-brands fa-html",
+        icon: "fa-brands fa-html5",
         level: "Avançado",
     },
     {
         name: "CSS",
-        icon: "fa-brands fa-css",
+        icon: "fa-brands fa-css3-alt",
         level: "Avançado",
     },
     {
         name: "JavaScript",
-        icon: "fa-brands fa-javascript",
+        icon: "fa-brands fa-js",
         level: "Intermediário",
     },
     {
@@ -41,7 +41,7 @@ export const skills = [
     },
     {
         name: "Node.js",
-        icon: "fa-brands fa-nodejs",
+        icon: "fa-brands fa-node-js",
         level: "Intermediário",
     },
     {

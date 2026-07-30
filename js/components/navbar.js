@@ -14,7 +14,7 @@ export default function Navbar() {
                 </ul>
             </nav>
 
-            <button id="theme-toogle">
+            <button id="theme-toogle" class="theme-btn">
                 <i class="fa-solid fa-moon"></i>
             </button>
 

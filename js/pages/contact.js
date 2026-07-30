@@ -16,13 +16,15 @@ export default function Contact() {
 
                 <form action="" id="form" class="form" onsubmit="SubmitWhats()">
                     <div class="group-form">
-                        <label for="name">Nome:</label>
-                        <input type="text" class="camp-form" placeholder="Digite o seu nome" id="name">
-                    </div>
+                        <div class="camp-form">
+                            <label for="name">Nome:</label>
+                            <input type="text" placeholder="Digite o seu nome" id="name">
+                        </div>
 
-                    <div class="group-form">
-                        <label for="message">Mensagem</label>
-                        <textarea class="camp-form" name="message" rows="10" cols="10" id="message"></textarea>
+                        <div class="camp-form">
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" rows="10" cols="15" id="message"></textarea>
+                        </div>
                     </div>
 
                     <button class="btn-whts" type="submit">Enviar messagem</button>

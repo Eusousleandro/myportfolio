@@ -11,8 +11,11 @@
 }
 
 .card-skill {
+    width: 250px;
+    padding: 30px 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    border-radius: 18px;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -43,20 +46,32 @@
     color: #fff;
 }
 
-.icon-skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 4rem;
-}
-
 .icon-skill i {
-    font-size: inherit;
+    font-size: 55px;
+    color: var(--color-blue);
 }
 
-.text-skill {
+.text-skill  small{
     font-size: .95rem;
-    color: #bdbdbd;
+    color: var(--text-level);
     text-align: center;
+    margin-top: 10px;
+}
+
+.progress {
+    width: 100%;
+    height: 8px;
+    background: var(--color-progress);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border: 30px;
+    background: linear-gradient(
+        90deg,
+        var(--color-blue),
+        var(--color-yellon)
+    );
 }
