@@ -1,6 +1,6 @@
 export default function CardSkill(skill) {
     return `
-            <div class="info-skill v">
+            <div class="info-skill">
                 <i class="${skill.icon}"></i>
                 <h2 class="title-skill">${skill.name}</h2>                
                 <div class="progress">

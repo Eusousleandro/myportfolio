@@ -26,3 +26,32 @@
     --text-label: #e2e8f0;
     --button-secondary: #4f8dd6;
 }
+
+:root[data-theme="light"] {
+    --bg-primary: #f8fafc;
+    --bg-secundary: #ffffff;
+    --bg-card: #ffffff;
+    --color-blue: #3776AB;
+    --color-yellon: #ffd43b;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-tercondary: #ffffff;
+    --text-muted: #64748b;
+    --button-primary: #3776AB;
+    --button-hover: #2e5f8a;
+    --button-text: #ffffff;
+    --button-secondary: #4f8dd6;
+    --link: #2563eb;
+    --link-hover: #d4a700;
+    --border: #dbe4ee;
+    --border-hover: #3776AB;
+    --shadow: rgba(15, 23, 42, 0.12);
+    --shadow-hover: rgba(55, 118, 171, 0.20);
+    --sucess: #16a34a;
+    --warning: #ca8a04;
+    --danger: #dc2626;
+    --background: #f1f5f9;
+    --color-progress: #dbeafe;
+    --text-level: #334155;
+    --text-label: #1e293b;
+}

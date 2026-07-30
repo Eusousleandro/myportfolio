@@ -22,15 +22,13 @@ form.form {
     margin-bottom: 2rem;   
 }
 
-.group-form input, textarea {
-    width: 30rem;
-    border: none;
-    border-radius: 16px;
-    margin-bottom: 1rem;
-    padding: 16px;
+.group-form {
+  width: 100%;
+  
 }
 
-.camp-form {
+.group-form input, 
+.group-form textarea {
   width: 100%;
   padding: 16px 18px;
   border: none;
@@ -39,7 +37,26 @@ form.form {
   font-size: 1rem;
   border: 2px solid transparent;
   border-radius: 12px;
-  transition: .3;
+  transition: .3s;
+}
+
+
+.group-form label {
+  display: block;
+  font-weight: 600;
+  color: var(--text-label);
+  margin-bottom: 8px;
+}
+
+.group-form textarea {
+  resize: none;
+  min-height: 180px;
+}
+
+
+.camp-form {
+  width: 30rem;
+  margin-bottom: 16px;
 }
 
 .camp-form:focus {
@@ -49,16 +66,6 @@ form.form {
 
 .camp-form::placeholder {
   color: var(--text-muted);
-}
-
-.camp-form label {
-  font-weight: 600;
-  color: var(--text-label);
-}
-
-.camp-form textarea {
-  resize: none;
-  min-height: 8px;
 }
 
 .btn-whts {
@@ -93,9 +100,8 @@ form.form {
     border-radius: 12px;
   }
 
-  .group-form
-  input,
-  textarea {
+  .group-form input,
+  .group-form textarea {
     padding: 14px;
     font-size: 16px; /* Evita zoom automático no iPhone */
     border-radius: 14px;
