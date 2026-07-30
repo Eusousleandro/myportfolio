@@ -9,6 +9,7 @@ import Contact from './pages/contact.js'
 import { iniAnimation } from './animation.js';
 import { initTheme } from './theme.js';
 import { initBtnNavBar } from './utils/btn.function.js';
+import { SubmitWhats } from './whats.js';
 
 const app = document.getElementById("app");
 
@@ -29,3 +30,4 @@ document.getElementById("content").innerHTML = `
 iniAnimation()
 initTheme()
 initBtnNavBar()
+SubmitWhats()
