@@ -64,6 +64,7 @@ section.profile {
         align-items: center;
         justify-content: center;
         padding: 6rem 1.5rem 2rem;
+        margin: 10rem 0;
         gap: 2.5rem;
     }
 
@@ -97,4 +98,24 @@ section.profile {
         line-height: 1.7;
         margin: auto;
     }
+
+    .hero-buttons {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    .hero-social {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 1rem;
+}
 } 

@@ -9,27 +9,28 @@ export default function Home() {
                     Especializado em Nodejs, Javascript, TypeScript, Python, Express,
                     FastApi, MySQL, Docker e APIs.
                 </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary" target="_blank">
+                        Ver projetos
+                    </a>
+                    <a href="" class="btn-secondary" download>
+                        Download
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
             </div>
             <img src="" alt="Foto do perfil" class="img-profile">
-            <div class="hero-buttons">
-                <a href="#projects" class="btn-primary" target="_blank">
-                    Ver projetos
-                </a>
-                <a href="" class="btn-secondary" download>
-                    Download
-                </a>
-            </div>
-            <div class="hero-social">
-                <a href="">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-            </div>
         </section>
     `
 }
