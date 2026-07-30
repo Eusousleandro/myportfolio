@@ -1,57 +1,57 @@
 export const skills = [
     {
         name: "HTML",
-        icon: "devicon-html5-plain colored",
+        icon: "fa-brands fa-html",
         level: "Avançado",
     },
     {
         name: "CSS",
-        icon: "devicon-css3-plain colored",
+        icon: "fa-brands fa-css",
         level: "Avançado",
     },
     {
         name: "JavaScript",
-        icon: "devicon-javascript-plain colored",
+        icon: "fa-brands fa-javascript",
         level: "Intermediário",
     },
     {
         name: "TypeScript",
-        icon: "devicon-typescript-plain colored",
+        icon: "fa-brands fa-typescript",
         level: "Intermediário",
     },
     {
         name: "React",
-        icon: "devicon-react-original colored",
+        icon: "fa-brands fa-react",
         level: "Intermediário",
     },
     {
         name: "Git",
-        icon: "devicon-git-plain colored",
+        icon: "fa-brands fa-git",
         level: "Intermediário",
     },
     {
         name: "GitHub",
-        icon: "devicon-github-original",
+        icon: "fa-brands fa-github",
         level: "Intermediário",
     },
     {
         name: "Python",
-        icon: "devicon-python-plain colored",
+        icon: "fa-brands fa-python",
         level: "Intermediário",
     },
     {
         name: "Node.js",
-        icon: "devicon-nodejs-plain colored",
+        icon: "fa-brands fa-nodejs",
         level: "Intermediário",
     },
     {
         name: "MySQL",
-        icon: "devicon-mysql-original colored",
+        icon: "fa-brands fa-mysql",
         level: "Intermediário",
     },
     {
         name: "Docker",
-        icon: "devicon-docker-plain colored",
+        icon: "fa-brands fa-docker",
         level: "Básico",
     },
 ];
