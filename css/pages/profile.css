@@ -1,8 +1,7 @@
 section.profile {
     width: 100%;
-    min-height: cal(100vh -80px);
+    min-height: 100vh;
     display: flex;
-    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 3rem 2rem 3rem;
@@ -59,11 +58,12 @@ section.profile {
 
 @media (max-width: 768px) {
     .profile {
+        min-height: 100vh;
         text-align: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        padding: 5rem 1rem 2rem;
+        padding: 6rem 1.5rem 2rem;
         gap: 2.5rem;
     }
 
