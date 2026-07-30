@@ -3,7 +3,7 @@ import CardSkill from "../components/card.skill.js"
 
 export default function Skills() {
     return `
-        <section class="skills hidden">
+        <section id="skills" class="skills hidden">
             <h1 class="title-skills">Habilidades técnicas</h1>
             <div class="card-skill">
                 ${skills.map(skill => CardSkill(skill)).join("")}
