@@ -84,7 +84,7 @@ ul#nav-links > li {
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top: 76px;
+        top: 112px;
         right: 0;
         background-color: var(--bg-secundary);
         box-shadow: 0 0 0.5rem var(--shadow-hover);

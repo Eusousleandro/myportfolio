@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "variables.css";
 @import "components/navbar.css";
+@import "components/hero.buttons.css";
 @import "components/button.css";
 @import "components/card.css";
 @import "components/form.css";
