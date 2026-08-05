@@ -30,4 +30,12 @@ document.getElementById("content").innerHTML = `
 iniAnimation()
 initTheme()
 initBtnNavBar()
-SubmitWhats()
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById("form")
+    
+    if(form) {
+        form.addEventListener('submit', SubmitWhats)
+    }
+})

@@ -14,7 +14,7 @@ export default function Contact() {
                     <span>Vamos criar algo incrível juntos!</span>
                 </div>
 
-                <form action="" id="form" class="form" onsubmit="SubmitWhats()">
+                <form action="" id="form" class="form">
                     <div class="group-form">
                         <div class="camp-form">
                             <label for="name">Nome:</label>

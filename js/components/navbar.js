@@ -14,10 +14,6 @@ export default function Navbar() {
                 </ul>
             </nav>
 
-            <button id="theme-toogle" class="theme-btn">
-                <i class="fa-solid fa-moon"></i>
-            </button>
-
             <button class="hamburguer" id="button">
                 <i class="fa-solid fa-bars"></i>
             </button>
