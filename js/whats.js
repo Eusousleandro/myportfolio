@@ -10,7 +10,7 @@ export function SubmitWhats(event) {
     messageError.innerHTML = " "
 
     if(name.trim() === " ") {
-        mnameError.innerHTML = "O campo nome é Obrigatório"
+        nameError.innerHTML = "O campo nome é Obrigatório"
         return
     }
 
