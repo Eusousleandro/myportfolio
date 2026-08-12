@@ -3,7 +3,7 @@ export function SubmitWhats(event) {
     event.preventDefault()
     const name = document.getElementById('name').value
     const msg = document.getElementById('message').value
-     const nameError = document.getElementById('name-error')
+    const nameError = document.getElementById('name-error')
     const messageError = document.getElementById('message-error')
 
     nameError.innerHTML =  " "
