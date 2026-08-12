@@ -32,10 +32,8 @@ initTheme()
 initBtnNavBar()
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById("form")
+const form = document.getElementById("form")
     
-    if(form) {
-        form.addEventListener('submit', SubmitWhats)
-    }
-})
+if(form) {
+    form.addEventListener('submit', SubmitWhats)
+}
