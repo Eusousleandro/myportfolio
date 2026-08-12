@@ -9,8 +9,8 @@ export function SubmitWhats(event) {
     const name = nameInput.value.trim()
     const msg = messageText.value.trim()
 
-    nameError.innerHTML =  " "
-    messageError.innerHTML = " "
+    nameError.innerHTML =  ""
+    messageError.innerHTML = ""
 
     if(!name) {
         nameError.innerHTML = "O campo nome é Obrigatório"
