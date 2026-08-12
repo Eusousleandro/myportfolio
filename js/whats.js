@@ -3,11 +3,12 @@ export function SubmitWhats(event) {
     event.preventDefault()
     const name = document.getElementById('name').value
     const msg = document.getElementById('message').value
-    const nameError = document.getElementById('name-error')
-    const messageError = document.getElementById('message-error')
+    const messageError = document.getElementById('error')
+
+    messageError.innerHTML = " "
 
     if(name.trim() === " ") {
-        nameError.innerHTML = "O campo nome é Obrigatório"
+        messageError.innerHTML = "O campo nome é Obrigatório"
         return
     }
 

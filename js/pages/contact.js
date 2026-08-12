@@ -19,13 +19,13 @@ export default function Contact() {
                         <div class="camp-form">
                             <label for="name">Nome:</label>
                             <input type="text" placeholder="Digite o seu nome" id="name">
-                            <span class="error" id="name-error"></span>
+                            <span class="error" id="error"></span>
                         </div>
 
                         <div class="camp-form">
                             <label for="message">Mensagem</label>
                             <textarea name="message" rows="10" cols="15" id="message"></textarea>
-                            <span class="error" id="message-error"></span>
+                            <span class="error" id="error"></span>
                         </div>
                     </div>
 
