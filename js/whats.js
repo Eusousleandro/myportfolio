@@ -7,14 +7,14 @@ export function SubmitWhats(event) {
     const name = nameInput.value.trim()
     const msg = messageText.value.trim()
 
-    if(name === " ") {
+    if(!name) {
         const nameError = document.getElementById('name-error')
         nameError.innerHTML = "O campo nome é Obrigatório"
         nameError.innerHTML =  " "
         return
     }
 
-    if (msg === " ") {
+    if (!msg) {
         const messageError = document.getElementById('message-error')
         messageError.innerHTML = "O campo da messagem é Obrigatório"
         messageError.innerHTML = " "
