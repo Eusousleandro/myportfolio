@@ -27,7 +27,7 @@ form.form {
 
 .group-form {
   width: 100%;
-  
+
 }
 
 .group-form input, 
@@ -93,6 +93,13 @@ form.form {
 .btn-whts:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
+}
+
+.error {
+  display: block;
+  font-weight: 600;
+  color: #f10410;
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 768px) {
