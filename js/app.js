@@ -27,13 +27,12 @@ document.getElementById("content").innerHTML = `
     ${Contact()}
 `
 
-iniAnimation()
-initTheme()
-initBtnNavBar()
-
-
 const form = document.getElementById("form")
     
 if(form) {
     form.addEventListener('submit', SubmitWhats)
 }
+
+iniAnimation()
+initTheme()
+initBtnNavBar()
