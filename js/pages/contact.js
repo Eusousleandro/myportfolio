@@ -25,7 +25,7 @@ export default function Contact() {
                         <div class="camp-form">
                             <label for="message">Mensagem</label>
                             <textarea name="message" rows="10" cols="15" id="message"></textarea>
-                            <span class="error"></span>
+                            <span class="error" id="error"></span>
                         </div>
                     </div>
 
