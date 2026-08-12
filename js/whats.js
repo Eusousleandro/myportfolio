@@ -6,11 +6,11 @@ export function SubmitWhats(event) {
     const phone = '5583921470522'
     const messageError = document.getElementById('error')
 
-    if(name === " ") {
+    if(name.trim() === " ") {
         messageError.innerHTML = "O campo nome é Obrigatório"
     }
 
-    if (msg === " ") {
+    if (msg.trim() === " ") {
         messageError.innerHTML = "O campo da messagem é Obrigatório"
     }
 
