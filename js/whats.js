@@ -3,7 +3,6 @@ export function SubmitWhats(event) {
     event.preventDefault()
     const name = document.getElementById('name').value
     const msg = document.getElementById('message').value
-    const phone = '5583921470522'
     const nameError = document.getElementById('name-error')
     const messageError = document.getElementById('message-error')
 
@@ -16,6 +15,8 @@ export function SubmitWhats(event) {
         messageError.innerHTML = "O campo da messagem é Obrigatório"
         return
     }
+
+    const phone = '5583921470522'
 
     const message = `Olá, me chamo ${name}, ${msg}`
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
