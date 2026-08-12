@@ -4,14 +4,17 @@ export function SubmitWhats(event) {
     const name = document.getElementById('name').value
     const msg = document.getElementById('message').value
     const phone = '5583921470522'
-    const messageError = document.getElementById('error')
+    const nameError = document.getElementById('name-error')
+    const messageError = document.getElementById('message-error')
 
     if(name.trim() === " ") {
-        messageError.innerHTML = "O campo nome é Obrigatório"
+        nameError.innerHTML = "O campo nome é Obrigatório"
+        return
     }
 
     if (msg.trim() === " ") {
         messageError.innerHTML = "O campo da messagem é Obrigatório"
+        return
     }
 
     const message = `Olá, me chamo ${name}, ${msg}`
