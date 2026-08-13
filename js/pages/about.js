@@ -1,8 +1,9 @@
 export default function About() {
     return `
         <section id="about" class="about hidden">
+            
+            <h1>Sobre mim</h1>
             <div class="content">
-                <h1>Sobre mim</h1>
                 <p>
                     Sou um desenvolvedor Backend em transição de carreira, apaixonadopor tecnologia
                     e desenvolvimento de software. Atualmente foco meus estudos em Python, FastAPI, MySQL

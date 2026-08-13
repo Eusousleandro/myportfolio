@@ -4,6 +4,7 @@ section.profile {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 10rem auto;
     padding: 2rem 3rem 2rem 3rem;
     gap: 5rem;
 }
@@ -69,7 +70,7 @@ section.profile {
     }
 
     .img-profile {
-        width: 1005;
+        width: 100%;
         max-width: 220px;
         aspect-ratio: 1 / 1;
     }
@@ -83,7 +84,7 @@ section.profile {
     }
 
     .text-name {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
 
     .text-profile span{
