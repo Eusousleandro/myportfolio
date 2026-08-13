@@ -1,4 +1,3 @@
-
 export function iniAnimation() {
     const Observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {

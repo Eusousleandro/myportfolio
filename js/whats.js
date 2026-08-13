@@ -22,6 +22,11 @@ export function SubmitWhats(event) {
         return
     }
 
+    if(!name || !msg) {
+        messageError.innerHTML = "O campo name e o campo de messagem são obrigatórios."
+        return
+    }
+
     const phone = '5583921470522'
 
     const message = `Olá, me chamo ${name}, ${msg}`
