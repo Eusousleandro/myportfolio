@@ -2,7 +2,7 @@ export default function Navbar() {
     return `
         <header class="container">
             <div class="logo">
-                <h1>Leandro Sousa</h1>
+                <a href="#profile">Leandro <span>Sousa</span></a>
             </div>
             <nav class="navbar">
                 <ul id="nav-links">

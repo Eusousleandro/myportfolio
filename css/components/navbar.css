@@ -12,8 +12,19 @@ header.container {
     z-index: 1;
 }
 
-.logo {
-    color: var(--text-secondary);
+.logo a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--text-muted);
+    transition: all 0.3s;
+}
+
+.logo span {
+    color: var(--color-yellon);
+}
+
+.logo a:hover {
+    transform: translateY(-3px);
 }
 
 nav.navbar > ul{
@@ -74,10 +85,17 @@ ul#nav-links > li {
 }
 
 @media (max-width: 768px) {
+
+    .logo a { 
+        display: flex;
+        flex-direction: column;
+         text-align: justify;
+        font-size: 2rem;
+    }
+
     .hamburguer { 
         display: block;
         width: 55px;
-
     }
 
     #nav-links {

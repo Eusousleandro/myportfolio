@@ -1,6 +1,5 @@
 form.form {
     width: 100%;
-    max-width: 500px;
     background: rgba(15, 23, 42, 0.75);
     border-radius: 18px;
     border: 1px solid rgba(55, 118, 171, 0.25);
@@ -25,14 +24,9 @@ form.form {
     margin-bottom: 2rem;   
 }
 
-.group-form {
-  width: 100%;
-
-}
-
 .group-form input, 
 .group-form textarea {
-  width: 100%;
+  width: 32rem;
   padding: 16px 18px;
   border: none;
   outline: none;
@@ -112,6 +106,7 @@ form.form {
 
   .group-form input,
   .group-form textarea {
+    width: 100%;
     padding: 14px;
     font-size: 16px; /* Evita zoom automático no iPhone */
     border-radius: 14px;
