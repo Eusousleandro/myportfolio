@@ -57,8 +57,8 @@
     gap: 1.2rem;
 }
 
-.btn-view,
-.btn-code {
+.btn-view a,
+.btn-code a {
     padding: 14px 18px;
     border-radius: 12px;
     text-decoration: none;
