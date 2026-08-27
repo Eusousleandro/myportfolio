@@ -30,3 +30,20 @@ section.about {
     font-weight: 500;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+    .about h1 {
+        font-size: 1.8rem !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        margin-bottom: 1.3rem;
+    }
+
+    .about p {
+        text-align: start;
+        font-size: 1.1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        margin-bottom: 0.6rem;
+    }
+}
