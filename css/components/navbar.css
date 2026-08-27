@@ -1,12 +1,13 @@
 header.container {
     width: 100%;
+    height: 70px;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--bg-secundary);
     box-shadow: 0 0 0.5rem var(--shadow-hover);
-    padding: 1rem 2rem;
+    padding: 0 1.5rem;
     top: 0;
     left: 0;
     z-index: 100;
