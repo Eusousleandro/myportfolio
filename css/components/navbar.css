@@ -19,6 +19,7 @@ header.container {
     color: var(--text-muted);
     transition: all 0.3s;
     align-items: center;
+    line-height: 1;
 }
 
 .logo span {
@@ -83,10 +84,13 @@ ul#nav-links > li {
     color: var(--text-primary);
     background-color: transparent;
     cursor: pointer;
+    padding: 0;
+    height: 100%;
 }
 
 .hamburguer i {
     font-size: 1.8rem;
+    line-height: 1;
 }
 
 @media (max-width: 768px) {
