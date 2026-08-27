@@ -10,3 +10,15 @@ section.project{
     font-weight: 500;
     margin-bottom: 2rem;    
 }
+
+@media (max-width: 768px) {
+    .title-project {
+        font-weight: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .title-project {
+        font-size: 1.8rem;
+    }
+}
