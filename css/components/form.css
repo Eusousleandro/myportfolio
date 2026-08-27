@@ -156,14 +156,14 @@ form.form {
   }
 
   .message {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     margin-bottom: 1rem;   
   }
 
   .message p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     text-align: justify;
@@ -171,7 +171,7 @@ form.form {
   }
 
   .message span {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     text-align: justify;

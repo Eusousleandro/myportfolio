@@ -1,7 +1,7 @@
 export default function Card(project) {
     return `
             <div class="info-card">
-                <img src="${project.image}" alt="Foto do projeto" class="image">
+                
                 <h2 class="title-card">${project.title}</h2>
                 <p class="description-card">
                     ${project.description}
