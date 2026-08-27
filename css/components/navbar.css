@@ -91,7 +91,6 @@ ul#nav-links > li {
 
     .logo a {
         display: flex;
-        flex-direction: column;
         text-align: justify;
         font-size: 1.5rem;
     }
