@@ -98,3 +98,34 @@
     background: var(--color-blue);
     color: var(--text-primary)
 }
+
+@media (max-width: 768px) {
+    .title-card {
+        font-size: 1.3rem;
+        padding: 0 12px;
+    }
+
+    .description-card {
+        font-size: 0.95rem; /* Ajusta o tamanho da descrição do projeto */
+        padding: 0 12px;
+    }
+
+    .btn-card {
+        gap: 0.8rem; /* Diminui a distância entre os botões no celular */
+        padding: 0 12px;
+    }
+
+    .btn-view a,
+    .btn-code a {
+        font-size: 1rem; /* Reduz o texto do botão para 16px evitando quebras feias de texto */
+        padding: 10px 8px; /* Otimiza o espaçamento interno para dedões no celular */
+    }
+
+}
+    
+@media (max-width: 400px) {
+    .btn-card {
+        flex-direction: column; /* Em celulares muito pequenos, empilha os botões para não esmagá-los */
+        gap: 0.6rem;
+    }
+}
