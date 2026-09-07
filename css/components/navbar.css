@@ -106,6 +106,7 @@ ul#nav-links > li {
 
     .hamburguer { 
         display: block;
+        align-items: center;
         order: 3;
     }
 
