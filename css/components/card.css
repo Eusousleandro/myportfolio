@@ -136,6 +136,7 @@
     }
     .title-card {
         width: 100%;
+        max-width: 250px;
         font-size: 1.4rem;
         padding: 0 12px;
     }
