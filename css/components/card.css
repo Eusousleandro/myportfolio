@@ -135,17 +135,18 @@
         justify-items: center;
     }
     .title-card {
+        width: 100%;
         font-size: 1.4rem;
-        padding: 0 19px;
+        padding: 0 12px;
     }
 
     .description-card {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 0 19px;
     }
 
     .btn-card {
-        gap: 1rem; /* Diminui a distância entre os botões no celular */
+        gap: 1.2rem; /* Diminui a distância entre os botões no celular */
         padding: 0 12px;
     }
 
