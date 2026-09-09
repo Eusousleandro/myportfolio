@@ -135,17 +135,13 @@
         justify-items: center;
     }
     .title-card {
-        width: 100%;
-        max-width: 250px;
         font-size: 1.4rem;
-        padding: 0 12px;
+        padding: 0 19px;
     }
 
     .description-card {
-        width: 100%;
-        max-width: 250px;
         font-size: 1.2rem;
-        padding: 0 12px;
+        padding: 0 19px;
     }
 
     .btn-card {
