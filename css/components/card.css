@@ -112,6 +112,8 @@
     }
 
     .description-card {
+        width: 100%;
+        max-width: 250px;
         font-size: 1rem; /* Ajusta o tamanho da descrição do projeto */
         padding: 0 12px;
     }
