@@ -136,11 +136,12 @@
     }
     .title-card {
         font-size: 1.3rem;
-        padding: 12px 12px;
+        padding: 0 12px;
     }
 
     .description-card {
-        font-size: 1rem; /* Ajusta o tamanho da descrição do projeto */
+        font-size: 1rem;
+        text-align: justify;
         padding: 0 12px;
     }
 
