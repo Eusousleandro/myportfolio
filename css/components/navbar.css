@@ -90,7 +90,7 @@ ul#nav-links > li {
 }
 
 .hamburguer i {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1;
 }
 
@@ -105,7 +105,7 @@ ul#nav-links > li {
         font-size: 1.4rem;
     }
 
-    .hamburguer i { 
+    .hamburguer { 
         width: 40px;
         height: 40px;
         display: flex;
