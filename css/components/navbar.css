@@ -96,6 +96,7 @@ ul#nav-links > li {
 @media (max-width: 768px) {
 
     header.container {
+        height: 70px;
         padding: 1rem 1.2rem;
     }
     .logo a {
