@@ -14,6 +14,9 @@ header.container {
 }
 
 .logo a {
+    display: flex;
+    align-items: center;
+    height: 40px;
     font-size: 2rem;
     text-decoration: none;
     color: var(--text-muted);
@@ -78,6 +81,8 @@ ul#nav-links > li {
 }
 
 .hamburguer {
+    width: 40px;
+    height: 40px;
     display: none;
     align-items: center;
     justify-content: center;
@@ -89,6 +94,7 @@ ul#nav-links > li {
 }
 
 .hamburguer i {
+    display: block;
     font-size: 1.4rem;
     line-height: 1;
 }
@@ -101,7 +107,10 @@ ul#nav-links > li {
     }
     .logo a {
         display: flex;
-        text-align: left;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        line-height: 1;
         font-size: 1.4rem;
     }
 
@@ -112,6 +121,12 @@ ul#nav-links > li {
         align-items: center;
         justify-content: center;
         order: 3;
+    }
+
+    .hamburguer i {
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1;
     }
 
     .theme-btn {
@@ -155,7 +170,10 @@ ul#nav-links > li {
                         
     .logo a {
         display: flex;
-        text-align: left;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        line-height: 1;
         font-size: 1.4rem;
     }
 
@@ -166,6 +184,12 @@ ul#nav-links > li {
         align-items: center;
         justify-content: center;
         order: 3;
+    }
+
+    .hamburguer i {
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1;
     }
 
     .theme-btn {
