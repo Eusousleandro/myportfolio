@@ -87,7 +87,8 @@ button.hamburguer i {
 
 @media (max-width: 768px) {
 
-    header.container {
+    header,
+    .container {
         height: 70px;
         padding: 1rem 1.2rem;
     }
@@ -101,14 +102,16 @@ button.hamburguer i {
         font-size: 1.4rem;
     }
 
-    button.hamburguer { 
+    button,
+    .hamburguer { 
         width: 40px;
         height: 40px;
         display: block;
         align-items: center;
     }
 
-    button.hamburguer i {
+    button,
+    .hamburguer i {
         font-size: 1.4rem;
         line-height: 1;
     }
