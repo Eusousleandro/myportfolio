@@ -110,9 +110,7 @@ ul#nav-links > li {
         align-items: center;
     }
 
-    .hamburguer, 
-    button,
-    i {
+    .hamburguer i {
         font-size: 1.4rem;
         line-height: 1;
     }
