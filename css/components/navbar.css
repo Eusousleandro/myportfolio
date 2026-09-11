@@ -67,19 +67,6 @@ ul#nav-links > li {
     width: 100%;
 }
 
-.theme-btn {
-    width: 40px;
-    height: 40px;
-    background: var(--color-progress);
-    color: var(--color-yellon);
-    border-radius: 50%;
-    border: 1px solid var(--color-blue);
-}
-
-.theme-btn i {
-    font-size: 1.2rem;
-}
-
 button.hamburguer {
     width: 40px;
     height: 40px;
@@ -105,6 +92,7 @@ button.hamburguer i {
         height: 70px;
         padding: 1rem 1.2rem;
     }
+
     .logo a {
         display: flex;
         align-items: center;
@@ -127,11 +115,6 @@ button.hamburguer i {
         display: block;
         font-size: 1.4rem;
         line-height: 1;
-    }
-
-    .theme-btn {
-        order: 2;
-        margin-right: 0.5rem;
     }
 
     #nav-links {
