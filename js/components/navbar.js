@@ -15,7 +15,7 @@ export default function Navbar() {
             </nav>
 
             <button class="hamburguer" id="button">
-                <i class="fa-solid fa-bars"></i>
+                menu
             </button>
         </header>
     `
