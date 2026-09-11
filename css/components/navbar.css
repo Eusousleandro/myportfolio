@@ -8,6 +8,7 @@ header,
     justify-content: space-between;
     background-color: var(--bg-secundary);
     box-shadow: 0 0 0.5rem var(--shadow-hover);
+    box-sizing: border-box;
     padding: 0 1.5rem;
     top: 0;
     left: 0;
