@@ -80,7 +80,7 @@ ul#nav-links > li {
     font-size: 1.2rem;
 }
 
-.hamburguer {
+button.hamburguer {
     width: 40px;
     height: 40px;
     display: none;
@@ -93,7 +93,7 @@ ul#nav-links > li {
     padding: 0;
 }
 
-.hamburguer i {
+button.hamburguer i {
     display: block;
     font-size: 1.4rem;
     line-height: 1;
@@ -114,7 +114,7 @@ ul#nav-links > li {
         font-size: 1.4rem;
     }
 
-    .hamburguer { 
+    button.hamburguer { 
         width: 40px;
         height: 40px;
         display: flex;
@@ -123,7 +123,7 @@ ul#nav-links > li {
         order: 3;
     }
 
-    .hamburguer i {
+    button.hamburguer i {
         display: block;
         font-size: 1.4rem;
         line-height: 1;
