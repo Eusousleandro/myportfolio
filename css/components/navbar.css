@@ -68,8 +68,7 @@ ul#nav-links > li {
     width: 100%;
 }
 
-button,
-.hamburguer {
+.hamburguer button {
     width: 40px;
     height: 40px;
     display: none;
@@ -82,7 +81,6 @@ button,
     padding: 0;
 }
 
-button,
 .hamburguer i {
     font-size: 1.4rem;
     line-height: 1;
@@ -105,16 +103,16 @@ button,
         font-size: 1.4rem;
     }
 
-    button,
-    .hamburguer { 
+    .hamburguer button { 
         width: 40px;
         height: 40px;
         display: block;
         align-items: center;
     }
 
+    .hamburguer, 
     button,
-    .hamburguer i {
+    i {
         font-size: 1.4rem;
         line-height: 1;
     }
