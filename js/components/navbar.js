@@ -14,9 +14,11 @@ export default function Navbar() {
                 </ul>
             </nav>
 
-            <button class="hamburguer" id="button">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+            <div class="hamburguer">
+                <button id="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </header>
     `
 }
