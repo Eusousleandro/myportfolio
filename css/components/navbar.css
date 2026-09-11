@@ -81,7 +81,6 @@ button.hamburguer {
 }
 
 button.hamburguer i {
-    display: block;
     font-size: 1.4rem;
     line-height: 1;
 }
@@ -105,14 +104,12 @@ button.hamburguer i {
     button.hamburguer { 
         width: 40px;
         height: 40px;
-        display: flex;
+        display: block;
         align-items: center;
-        justify-content: center;
         order: 3;
     }
 
     button.hamburguer i {
-        display: block;
         font-size: 1.4rem;
         line-height: 1;
     }
