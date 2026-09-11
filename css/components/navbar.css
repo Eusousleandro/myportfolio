@@ -81,7 +81,9 @@ ul#nav-links > li {
     padding: 0;
 }
 
-.hamburguer i {
+.hamburguer, 
+button, 
+i {
     font-size: 1.4rem;
     line-height: 1;
 }
