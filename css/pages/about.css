@@ -1,6 +1,7 @@
 section.about {
     width: 100%;
-    min-height: 100vh;
+    height: auto;
+    min-height: 200px;
     padding: 2rem 3rem 2rem 3rem;
 }
 
