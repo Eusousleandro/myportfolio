@@ -95,8 +95,7 @@ ul#nav-links > li {
     .logo a {
         display: flex;
         flex-direction: column;
-        height: 40px;
-        line-height: 1;
+        line-height: 1.1;
         font-size: 1.4rem;
     }
 
