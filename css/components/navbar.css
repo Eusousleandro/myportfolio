@@ -12,22 +12,22 @@ header,
     padding: 1.2rem 3rem 1.2rem 3rem;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .logo a {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     height: 40px;
     font-size: 2rem;
     text-decoration: none;
     color: var(--text-muted);
     transition: all 0.3s;
-    align-items: center;
     line-height: 1;
 }
 
 .logo span {
+    font-size: 1.4rem;
     color: var(--color-yellon);
 }
 
@@ -74,7 +74,6 @@ ul#nav-links > li {
     height: 40px;
     display: none;
     align-items: center;
-    justify-content: center;
     border: none;
     color: var(--text-primary);
     background-color: transparent;
@@ -97,18 +96,19 @@ ul#nav-links > li {
 
     .logo a {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
         height: 40px;
         line-height: 1;
         font-size: 1.4rem;
     }
 
+    .logo span {
+        font-size: 1rem;
+    }
+
     .hamburguer button { 
-        width: 40px;
-        height: 40px;
+        width: 55px;
         display: block;
-        align-items: center;
     }
 
     .hamburguer i {
