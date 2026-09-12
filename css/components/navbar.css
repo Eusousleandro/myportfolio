@@ -9,7 +9,7 @@ header,
     background-color: var(--bg-secundary);
     box-shadow: 0 0 0.5rem var(--shadow-hover);
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 1.2rem 3rem 1.2rem 3rem;
     top: 0;
     left: 0;
     z-index: 100;
