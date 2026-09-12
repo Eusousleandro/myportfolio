@@ -132,10 +132,6 @@
 }
     
 @media (max-width: 400px) {
-    .cards {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
     .title-card {
         width: 100%;
         max-width: 250px;
